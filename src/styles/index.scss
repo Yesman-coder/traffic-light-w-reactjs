@@ -1,13 +1,70 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body {
+    background-color: skyblue;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.light-top{
+    background: black;
+    width:10px;
+    height:70px;
+    margin: 0px auto 0px auto
+}
 
-*/
+.trafficlight{
+    width: 100px;
+    height: 300px;
+    background-color: #312d2d;
+    margin: 0px auto 0px auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-sizing: content-box;
+}
+
+.lamp{
+    border-radius: 100%;
+    width: 50; 
+    height: 50;
+    padding: 45px;
+    margin: 10px 0px 0px 0px;
+}
+
+.lamp.red{
+    background-color: #8d2626;
+    
+}
+
+.lamp.yellow{
+    background-color: #CC6600;   
+}
+
+.lamp.green{
+    background-color: #009933;
+}
+
+.lamp.red.selected{
+    background-color: #ff0e0e;
+    -webkit-box-shadow: 10px 10px 91px 11px rgba(242,19,19,1);
+    -moz-box-shadow: 10px 10px 91px 11px rgba(242,19,19,1);
+    box-shadow: 10px 10px 91px 11px rgba(242,19,19,1);
+}
+
+.lamp.yellow.selected{
+    background-color: #f5f10a;
+    -webkit-box-shadow: 10px 10px 91px 11px rgba(240,236,19,1);
+    -moz-box-shadow: 10px 10px 91px 11px rgba(240,236,19,1);
+    box-shadow: 10px 10px 91px 11px rgba(240,236,19,1);
+}
+
+.lamp.green.selected{
+    background-color: #16ff0e;
+    -webkit-box-shadow: 10px 10px 91px 11px rgba(34,240,19,1);
+    -moz-box-shadow: 10px 10px 91px 11px rgba(34,240,19,1);
+    box-shadow: 10px 10px 91px 11px rgba(34,240,19,1);  
+}
+
+h1{
+    padding:80px;
+    color:whitesmoke;
+    font-family: "Courier New", Courier, monospace;
+}
